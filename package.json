@@ -8,7 +8,8 @@
     "keystone": "^4.0.0-beta.1",
     "md5": "^2.2.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "snyk": "^1.48.1"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
@@ -26,8 +27,11 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --content-base src --inline --hot"
+    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
