@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.8.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - keystone > morgan > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > compression > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > finalhandler > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > send > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > body-parser > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > serve-static > send > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > method-override > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > mongoose > mquery > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express-session > debug:
+        patched: '2017-11-06T16:46:23.810Z'
+  'npm:marked:20170907':
+    - keystone > marked:
+        patched: '2017-11-06T16:46:23.810Z'
+  'npm:ms:20170412':
+    - keystone > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express-session > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > body-parser > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > method-override > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > mongoose > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > serve-favicon > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > serve-static > send > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > compression > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > finalhandler > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > send > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > morgan > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > serve-static > send > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > express > send > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+    - keystone > mongoose > mquery > debug > ms:
+        patched: '2017-11-06T16:46:23.810Z'
+  'npm:qs:20170213':
+    - keystone > body-parser > qs:
+        patched: '2017-11-06T16:46:23.810Z'
