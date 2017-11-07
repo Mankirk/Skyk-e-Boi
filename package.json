@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
-    "angular": "^1.5.0",
+    "angular": "^1.4.10",
     "bootstrap": "^3.3.7",
     "cordova-android": "^3.5.1",
     "cordova-ios": "^4.5.3",
