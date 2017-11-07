@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
-    "cordova-android": "^3.5.1",
+    "cordova-android": "^4.1.1",
     "cordova-ios": "^4.5.3",
     "electron": "^1.7.9",
     "express": "^4.15.5",
