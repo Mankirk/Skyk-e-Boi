@@ -7,7 +7,7 @@
     "cordova-android": "^3.5.1",
     "cordova-ios": "^4.5.3",
     "electron": "^1.7.9",
-    "express": "^4.15.5",
+    "express": "^2.0.0",
     "fresh": "^0.5.2",
     "md5": "^2.2.1",
     "react": "^16.0.0",
