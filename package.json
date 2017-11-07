@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "cordova-ios": "^4.5.3",
     "electron": "^1.7.9",
     "express": "^4.15.5",
     "fresh": "^0.5.2",
