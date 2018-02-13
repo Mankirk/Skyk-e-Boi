@@ -6,7 +6,7 @@
   "dependencies": {
     "angular": "1.4.10",
     "bootstrap": "2.1.0",
-    "cordova-android": "^3.5.1",
+    "cordova-android": "^6.1.2",
     "cordova-ios": "^4.5.3",
     "electron": "^1.7.9",
     "express": "^2.0.0",
