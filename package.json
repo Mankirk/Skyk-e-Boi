@@ -4,20 +4,21 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
-    "angular": "1.4.10",
-    "bootstrap": "2.1.0",
-    "cordova-android": "^3.5.1",
-    "cordova-ios": "^4.5.3",
-    "electron": "^1.7.9",
-    "express": "^2.0.0",
+    "angular": "1.6.9",
+    "bootstrap": "3.4.1",
+    "cordova-android": "^6.1.2",
+    "cordova-ios": "^5.0.0",
+    "electron": "^2.0.18",
+    "express": "^3.11.0",
     "fresh": "^0.5.2",
     "md5": "^2.2.1",
     "mongoose": "^1.1.25",
-    "mysql": "2.0.0",
+    "mysql": "2.14.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.0.1",
     "redux": "^1.0.0",
-    "serve-static": "^1.12.4"
+    "serve-static": "^1.13.0",
+    "snyk": "^1.163.3"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
@@ -35,8 +36,11 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --content-base src --inline --hot"
+    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
