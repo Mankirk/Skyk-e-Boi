@@ -7,7 +7,7 @@
     "angular": "1.4.10",
     "bootstrap": "2.1.0",
     "cordova-android": "^3.5.1",
-    "cordova-ios": "^4.5.3",
+    "cordova-ios": "^5.0.0",
     "electron": "^1.7.9",
     "express": "^2.0.0",
     "fresh": "^0.5.2",
