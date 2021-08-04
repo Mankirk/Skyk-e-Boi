@@ -8,7 +8,7 @@
     "bootstrap": "2.1.0",
     "cordova-android": "^3.5.1",
     "cordova-ios": "^4.5.3",
-    "electron": "^1.7.9",
+    "electron": "^11.4.11",
     "express": "^2.0.0",
     "fresh": "^0.5.2",
     "md5": "^2.2.1",
